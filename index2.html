@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hover RKG</title>
+</head>
+<style> 
+*{
+  background-color:yellow;
+
+  }
+
+
+div {
+  width: 100px;
+  height: 100px;
+  background: green;
+  transition: width 2s;
+  margin-left: 50%;
+}
+#div0 {
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 4s;
+}
+
+#div0:hover {
+  width: 300px;
+  height: 300px;
+}
+#div1 {transition-timing-function: linear;}
+#div2 {transition-timing-function: ease;}
+#div3 {transition-timing-function: ease-in;}
+#div4 {transition-timing-function: ease-out;}
+#div5 {transition-timing-function: ease-in-out;}
+
+div:hover {
+  width: 300px;
+}
+</style>
+
+<body>
+
+
+<div id="div1"></div><br>
+<div id="div0"></div><br>
+<div id="div2"></div><br>
+<div id="div3"></div><br>
+<div id="div4"></div><br>
+<div id="div5"></div><br>
+
+<a style="margin: 750px; font: 32px sans-serif;"  href="./index3.html"> Next </a>
+<a style="margin: 750px; font: 32px sans-serif;"  href="./index.html"> Back </a>
+
+
+
+</body>
+</html>
